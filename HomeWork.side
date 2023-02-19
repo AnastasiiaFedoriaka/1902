@@ -1,0 +1,474 @@
+{
+  "id": "e20e299b-7959-4b86-a911-b458a637d505",
+  "version": "2.0",
+  "name": "HomeWork",
+  "url": "https://pn.com.ua/",
+  "tests": [{
+    "id": "bbae285e-53e7-4284-b4d8-6e4a2e8d3b31",
+    "name": "three",
+    "commands": [{
+      "id": "db023564-4e9e-490b-9e91-34a435583568",
+      "comment": "",
+      "command": "open",
+      "target": "https://pn.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "636c2adc-4e6d-4b7f-9e33-9004fa5c4391",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9717b6ab-0619-4305-8fc4-660473bc083c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText",
+      "targets": [
+        ["linkText=Дача, сад, огород", "linkText"],
+        ["css=.pc-block:nth-child(8) > .h2", "css:finder"],
+        ["xpath=//div[@id='column-center']/section/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/dacha-sad-ogorod/')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Дача, сад, огород')]", "xpath:innerText"]
+      ],
+      "value": "Дача, сад, огород"
+    }, {
+      "id": "69eade58-4fb1-49bd-8672-1292aa368c91",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Семена, удобрения, теплицы",
+      "targets": [
+        ["linkText=Семена, удобрения, теплицы", "linkText"],
+        ["css=.column-wrapper:nth-child(3) > .col-new-5 .h3 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Семена, удобрения, теплицы')]", "xpath:link"],
+        ["xpath=//div[@id='column-center']/section/div[3]/article/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gr/4900/')]", "xpath:href"],
+        ["xpath=//div[3]/article/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Семена, удобрения, теплицы')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f593d2e-9c6d-4d22-a337-bc281fc27d83",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Семена овощей и трав",
+      "targets": [
+        ["linkText=Семена овощей и трав", "linkText"],
+        ["css=.group-category:nth-child(2) > .group-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Семена овощей и трав')]", "xpath:link"],
+        ["xpath=//div[@id='column-center']/section/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ct/8909/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Семена овощей и трав')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fada5d6-0191-433c-95e4-e36d78a1780c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SEDOS лук Халцедон 5 м",
+      "targets": [
+        ["linkText=SEDOS лук Халцедон 5 м", "linkText"],
+        ["css=.item:nth-child(2) .catalog-block-head > a", "css:finder"],
+        ["xpath=//a[contains(text(),'SEDOS лук Халцедон 5 м')]", "xpath:link"],
+        ["xpath=//div[@id='column-center']/section/div[3]/article/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/md/3556438/')])[2]", "xpath:href"],
+        ["xpath=//article/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'SEDOS лук Халцедон 5 м')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1252230c-f933-448a-af89-8572847f0562",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=В магазин",
+      "targets": [
+        ["linkText=В магазин", "linkText"],
+        ["css=.td-row:nth-child(1) .form-btn", "css:finder"],
+        ["xpath=//a[contains(text(),'В магазин')]", "xpath:link"],
+        ["xpath=//a[@onclick=concat(\"sendAnaliticsEvent({'eventCategory': 'payclick','eventAction': \",'\"vmagazin\",',\"'eventLabel': '436','positionByPrice': new URLSearchParams(this.search).get('ip'),'positionClick': new URLSearchParams(this.search).get('p')});\")]", "xpath:attributes"],
+        ["xpath=//div[@id='main-block']/div[4]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/click/price/223709387/?token=17effedbcd131c7c9f6f7bf4081a6fc1&is_top1=0&ip=1&p=1')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'В магазин')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8537",
+      "windowTimeout": 2000
+    }, {
+      "id": "6c2ad65c-bb5b-4e97-9d5f-47ed2a546148",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8537}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5276220d-25da-45cd-9e61-1ba164e920e0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.shipping-brand__logo",
+      "targets": [
+        ["css=.shipping-brand__logo", "css:finder"],
+        ["xpath=//img[@alt='Продавец Красота и здоровье']", "xpath:img"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b961d43-a35d-4b95-a866-79b46d70d9b6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "xpath=//div[@id='js-p-view']/div[2]/main/div[2]/div/div/div/a/img",
+      "targets": [
+        ["css=.shipping-brand__logo", "css:finder"],
+        ["xpath=//img[@alt='Продавец Красота и здоровье']", "xpath:img"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "653d14ef-a54d-4874-9580-df7e62eaf0e7",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,101)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "061577f9-b872-44b5-b945-142bb6eff08d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#product-buy-button",
+      "targets": [
+        ["id=product-buy-button", "id"],
+        ["css=#product-buy-button", "css:finder"],
+        ["xpath=//button[@id='product-buy-button']", "xpath:attributes"],
+        ["xpath=//div[@id='js-p-view']/div[2]/main/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f44c8563-02ee-4ddb-b066-cc5bb8502bbf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li/div/div/div[2]/div[2]/div",
+      "targets": [
+        ["css=.qty", "css:finder"],
+        ["xpath=//li/div/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "612b7dbb-1b69-4fc6-b8c7-5d871ef60f72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.qty__up",
+      "targets": [
+        ["css=.qty__up", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5af02e3-a5b6-4efd-9320-5cee8306318d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vi__close:nth-child(1)",
+      "targets": [
+        ["css=.vi__close:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a3e7b019-1d20-4450-bfc6-5f5634ae11bb",
+    "name": "one",
+    "commands": [{
+      "id": "67c77c8c-95a7-4e67-8bc1-c232abe2f32f",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d33a6bb5-6b7a-4e56-a2d1-22a974013ad9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "37b59c53-9289-4634-afd0-222a783154d0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Бытовая техника",
+      "targets": [
+        ["linkText=Бытовая техника", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(4) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Бытовая техника')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://bt.rozetka.com.ua/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73d09239-ba51-446e-b254-57df5a310bf4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Бытовая техника",
+      "targets": [
+        ["linkText=Бытовая техника", "linkText"],
+        ["css=.menu-categories_type_main > .menu-categories__item:nth-child(4) > .menu-categories__link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Бытовая техника')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://bt.rozetka.com.ua/')])[2]", "xpath:href"],
+        ["xpath=//rz-sidebar-fat-menu/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc30ac6b-6586-4fd7-bd68-7453673467fb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1054.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fdea157-47db-46fa-ab66-eb5052bfc9d8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Красота и здоровье",
+      "targets": [
+        ["linkText=Красота и здоровье", "linkText"],
+        ["css=.portal-grid_type_1_6 > .portal-grid__cell:nth-child(1) .tile-cats__heading", "css:finder"],
+        ["xpath=(//a[contains(text(),'Красота и здоровье')])[2]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://bt.rozetka.com.ua/435969/c435969/')])[2]", "xpath:href"],
+        ["xpath=//rz-widget-list[2]/section/ul/li/rz-list-tile/div/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "087dc3aa-5e41-495c-be1d-5ef2ef6f6ec8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.portal-navigation__item:nth-child(2) .ng-lazyloaded",
+      "targets": [
+        ["css=.portal-navigation__item:nth-child(2) .ng-lazyloaded", "css:finder"],
+        ["xpath=//img[@alt='Триммеры']", "xpath:img"],
+        ["xpath=//li[2]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91380d1b-c910-42e5-a952-039306d22658",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.portal-navigation__item:nth-child(2) .ng-lazyloaded",
+      "targets": [
+        ["css=.portal-navigation__item:nth-child(2) .ng-lazyloaded", "css:finder"],
+        ["xpath=//img[@alt='Триммеры']", "xpath:img"],
+        ["xpath=//li[2]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b9bcd52-4257-4f0d-8703-97fdc77b0e29",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portal-navigation__item:nth-child(14) .portal-navigation__link-text",
+      "targets": [
+        ["css=.portal-navigation__item:nth-child(14) .portal-navigation__link-text", "css:finder"],
+        ["xpath=//li[14]/a/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82d9ed32-1c05-491e-8500-195ffe81b8b1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,633)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22d7e937-24cd-4a2f-bfc9-263d08e5c197",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08b08363-11ef-451f-8622-64fd694bc430",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(7) .goods-tile__title",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(7) .goods-tile__title", "css:finder"],
+        ["xpath=//li[7]/rz-catalog-tile/app-goods-tile-default/div/div[2]/a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Зеркало косметическое ROTEX RHC25-W Magic Mirror')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed7addc-303f-4aca-8517-d99a7f1eefab",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_type_link:nth-child(1) > span",
+      "targets": [
+        ["css=.button_type_link:nth-child(1) > span", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/rz-product-delivery/div/rz-delivery-in/div/p/button/span", "xpath:idRelative"],
+        ["xpath=//p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Харьков')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7264e18e-593d-46dd-bc42-3f6c1030cbc4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Днепр",
+      "targets": [
+        ["linkText=Днепр", "linkText"],
+        ["css=.header-location__popular-item:nth-child(4) > .header-location__popular-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Днепр')]", "xpath:link"],
+        ["xpath=//common-city/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Днепр')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "092fa913-c402-4e38-b7d4-71dd53a98c1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-location__footer > .button_color_green",
+      "targets": [
+        ["css=.header-location__footer > .button_color_green", "css:finder"],
+        ["xpath=//fieldset/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Применить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9ded8c6-9160-4892-8132-0f28a849c4eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buy-button",
+      "targets": [
+        ["css=.buy-button", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div/div/ul/li/rz-product-buy-btn/app-buy-button/button", "xpath:idRelative"],
+        ["xpath=//app-buy-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купить')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9c840c40-57ea-464d-ab85-ca7fc1efea46",
+    "name": "two",
+    "commands": [{
+      "id": "aae12c6d-39ea-4ede-a7f8-4fe3fc084b20",
+      "comment": "",
+      "command": "open",
+      "target": "https://pn.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a6b78390-b296-48e2-b1a6-da4deeb558d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "788x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5891d294-2152-45bc-a1de-2f937ce7a82e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Компьютеры",
+      "targets": [
+        ["linkText=Компьютеры", "linkText"],
+        ["css=.pc-block:nth-child(2) > .h2", "css:finder"],
+        ["xpath=//div[@id='column-center']/section/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/computer/')]", "xpath:href"],
+        ["xpath=//section/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Компьютеры')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a0677f4-d1bb-494a-9af0-f2838ddde2e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.column-wrapper:nth-child(1) > article:nth-child(1) li:nth-child(1) > a",
+      "targets": [
+        ["css=.column-wrapper:nth-child(1) > article:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбуки')]", "xpath:link"],
+        ["xpath=//div[@id='column-center']/section/div/article/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ct/1003/')])[2]", "xpath:href"],
+        ["xpath=//article/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a5ed612-4bd8-4e5a-9c52-8109732f0df4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=от 10%",
+      "targets": [
+        ["linkText=от 10%", "linkText"],
+        ["css=.filter-block:nth-child(3) span:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'от 10%')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ct/1003/?discount=10')]", "xpath:href"],
+        ["xpath=//div[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'от 10%')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ccabc8c-88f2-4daf-be63-aabd05ff218e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Lenovo IdeaPad Gaming 3 16ARH7 (82SC003JPB)",
+      "targets": [
+        ["linkText=Lenovo IdeaPad Gaming 3 16ARH7 (82SC003JPB)", "linkText"],
+        ["css=.item:nth-child(2) .catalog-block-head > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Lenovo IdeaPad Gaming 3 16ARH7 (82SC003JPB)')]", "xpath:link"],
+        ["xpath=//div[@id='column-center']/section/div[3]/article/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/md/5384233/')])[2]", "xpath:href"],
+        ["xpath=//article/div[2]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Lenovo IdeaPad Gaming 3 16ARH7 (82SC003JPB)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b9bc74a-8bde-419b-a07f-23300d75c64b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Где купить3",
+      "targets": [
+        ["linkText=Где купить3", "linkText"],
+        ["css=li:nth-child(2) > .nav-btn", "css:finder"],
+        ["xpath=//div[@id='column-center']/section/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#prices')]", "xpath:href"],
+        ["xpath=//section/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Где купить3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3aa44b49-09d8-4a7c-b4bc-b8f16632368c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.td-row:nth-child(3) .form-btn",
+      "targets": [
+        ["css=.td-row:nth-child(3) .form-btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'В магазин')])[3]", "xpath:link"],
+        ["xpath=//a[@onclick=concat(\"sendAnaliticsEvent({'eventCategory': 'payclick','eventAction': \",'\"vmagazin\",',\"'eventLabel': '5629','positionByPrice': new URLSearchParams(this.search).get('ip'),'positionClick': new URLSearchParams(this.search).get('p')});\")]", "xpath:attributes"],
+        ["xpath=//div[@id='main-block']/div[4]/div[3]/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/click/price/230527840/?token=963b77fc44d11338f9317c68be80fb05&is_top1=0&ip=3&p=3')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4827",
+      "windowTimeout": 2000
+    }, {
+      "id": "ac75168a-1c1a-4d14-916b-4b75c637935e",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4827}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "42a1094e-3c22-4885-a1c9-d30b90237c50",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://rozetka.com.ua/", "https://pn.com.ua/"],
+  "plugins": []
+}
